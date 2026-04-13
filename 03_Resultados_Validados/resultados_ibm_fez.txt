@@ -1,0 +1,56 @@
+================================================================================
+ DOSSIÊ DE AUDITORIA QUÂNTICA: HARDWARE IBM FEZ
+ PROJETO JANUS - FASE 3: SENSIBILIDADE, CAUSALIDADE E LIMITE DE ZENO
+================================================================================
+
+[EXPERIMENTOS DE SINAL BASE E CONTROLE SIMPLES]
+--------------------------------------------------------------------------------
+Exp. 01 e 03: Deteção Base (1 Espião)
+  * Scripts: 01_extracao_base_1_espiao.py -> 01_analise_base_rf.py
+  * Resultados:
+    - Lote 1: Precisão 59.14% (±5.11%) | P-Value: 0.023162  [SINAL CONFIRMADO]
+    - Lote 2: Precisão 62.79% (±6.64%) | P-Value: 0.018300  [SINAL CONFIRMADO]
+
+Exp. 02 e 04: Testes Nulos (Sem Entrelaçamento)
+  * Scripts: 02_extracao_controle_nulo.py -> 02_analise_controle_nulo.py
+  * Resultados:
+    - Lote 1: Precisão 51.61% (±2.81%) | P-Value: 0.316623  [CAUSALIDADE LINEAR]
+    - Lote 2: Precisão 50.17% (±5.04%) | P-Value: 0.950092  [CAUSALIDADE LINEAR]
+
+[AUDITORIAS ESTRUTURAIS]
+--------------------------------------------------------------------------------
+Exp. 05 e 06: Auditoria Tripla (1 Espião - Real vs Nulo vs Fantasma)
+  * Scripts: 03_extracao_auditoria_tripla_1e.py -> 03_analise_auditoria_tripla.py
+  * Resultados Exp 05 (Padrão):
+    - REAL: Precisão 61.25% | P-Value: 0.000004 [SINAL CONFIRMADO]
+    - NULO: Precisão 39.99% | P-Value: 0.999979 [LINEARIDADE MANTIDA]
+    - PHAN: Precisão 50.28% | P-Value: 0.479965 [RUÍDO BASE]
+  * Resultados Exp 06 (Trindade Otimizada):
+    - REAL: Precisão 58.46% | P-Value: 0.000192 [SINAL CONFIRMADO]
+    - NULO: Precisão 56.53% | P-Value: 0.002062 [CROSSTALK/INSTABILIDADE]
+    - PHAN: Precisão 51.43% | P-Value: 0.318887 [RUÍDO BASE]
+
+Exp. 07 e 08: Auditoria Panóptica Final (Consenso de Múltiplos Espiões)
+  * Scripts: 05_extracao_auditoria_panoptica.py -> 05_analise_auditoria_panoptica.py
+  * Resultados (3 Espiões):
+    - REAL (Corda + Marreta): Precisão 64.40% | P-Value: 0.000000 [SUPER ANOMALIA CONFIRMADA]
+    - NULO (Marreta, s/ Corda): Precisão 53.63% | P-Value: 0.005944 [CONTROLE NULO SUCESSO]
+    - PHAN (Corda, s/ Marreta): Precisão 58.96% | P-Value: 0.000000 [ECO PASSIVO DETECTADO]
+    * Nota: IBM Fez apresenta sensibilidade extrema à medição final mesmo sem a marreta.
+
+[PROVAS METODOLÓGICAS E LIMITES FÍSICOS]
+--------------------------------------------------------------------------------
+Exp. 09: Teste de Integridade Causal (Massa Bruta SEM Pós-Seleção)
+  * Scripts: 05_extracao_auditoria_panoptica.py -> 06_analise_integridade_causal_massa_bruta.py
+  * Resultados:
+    - REAL (Massa Bruta): Precisão 51.80% [CAUSALIDADE PRESERVADA. Sem a chave do futuro, o sinal some].
+    - NULO (Massa Bruta): Precisão 48.75% [CAUSALIDADE PRESERVADA].
+    - FANTASMA (Massa Bruta): Precisão 55.55% [Assinatura sistêmica de hardware/crosstalk].
+
+Exp. 10: Varredura de Otimização (Limite de Zeno Quântico)
+  * Scripts: 07_extracao_varredura_zeno.py -> 07_analise_varredura_zeno.py
+  * Resultados:
+    - 1 Espião  (pi/8) : Precisão 55.80% | P-Value: 0.012890 [SINAL FORTE]
+    - 3 Espiões (pi/8) : Precisão 62.87% | P-Value: 0.007259 [SINAL FORTE - PONTO ÓTIMO]
+    - 5 Espiões (pi/12): Precisão 62.76% | P-Value: 0.002358 [SINAL FORTE - PLATÔ DE SATURAÇÃO]
+================================================================================

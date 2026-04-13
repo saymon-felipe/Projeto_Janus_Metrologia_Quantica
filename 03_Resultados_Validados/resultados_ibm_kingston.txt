@@ -1,0 +1,52 @@
+================================================================================
+ DOSSIÊ DE AUDITORIA QUÂNTICA: HARDWARE IBM KINGSTON
+ PROJETO JANUS - FASE 1: PROVA DE CONCEITO E OTIMIZAÇÃO PANÓPTICA
+================================================================================
+
+[EXPERIMENTOS DE SINAL BASE E CONTROLE SIMPLES]
+--------------------------------------------------------------------------------
+Exp. 01 e 03: Deteção Base (1 Espião)
+  * Scripts: 01_extracao_base_1_espiao.py -> 01_analise_base_rf.py
+  * Resultados: 
+    - Lote 1: Precisão 63.42% (±1.88%) | P-Value: 0.000139  [SINAL CONFIRMADO]
+    - Lote 2: Precisão 60.99% (±1.95%) | P-Value: 0.000355  [SINAL CONFIRMADO]
+
+Exp. 02 e 04: Testes Nulos (Sem Entrelaçamento)
+  * Scripts: 02_extracao_controle_nulo.py -> 02_analise_controle_nulo.py
+  * Resultados:
+    - Lote 1: Precisão 50.65% (±1.45%) | P-Value: 0.417763  [CAUSALIDADE LINEAR]
+    - Lote 2: Precisão 50.78% (±1.30%) | P-Value: 0.298015  [CAUSALIDADE LINEAR]
+
+Exp. 05: Testes Fantasma (Sem Marreta)
+  * Scripts: 02_extracao_controle_fantasma.py -> 02_analise_controle_fantasma.py
+  * Resultados:
+    - Lote 1: Precisão 48.61% (±3.35%) | P-Value: 0.453027  [RUÍDO BASE CONFIRMADO]
+    - Lote 2: Precisão 50.17% (±2.50%) | P-Value: 0.901141  [RUÍDO BASE CONFIRMADO]
+
+Exp. 06: Deteção Massiva (Consolidação de Lotes)
+  * Scripts: 01_extracao_base_massiva.py -> 01_analise_base_rf.py
+  * Dataset: 179.881 eventos pos-selecionados
+  * Resultado: Precisão 59.04% (±0.50%) | P-Value: 0.000004 [SINAL ROBUSTO]
+
+[AUDITORIAS ESTRUTURAIS E CONTROLE DUPLO]
+--------------------------------------------------------------------------------
+Exp. 07: Auditoria Tripla (1 Espião - Real vs Nulo vs Fantasma)
+  * Scripts: 03_extracao_auditoria_tripla_1e.py -> 03_analise_auditoria_tripla.py
+  * Resultados:
+    - REAL (Corda + Marreta): Precisão 65.34% | P-Value: 0.000000 [SINAL CONFIRMADO]
+    - NULO (Marreta, s/ Corda): Precisão 54.34% | P-Value: 0.054964 [AVISO: Ligeiro Crosstalk]
+    - PHAN (Corda, s/ Marreta): Precisão 50.96% | P-Value: 0.401070 [RUÍDO BASE]
+
+Exp. 08: Auditoria de Controle Duplo
+  * Scripts: 04_extracao_controles_duplos.py -> 04_analise_controles_duplos.py
+  * Resultados:
+    - NULO: Precisão 50.19% | P-Value: 0.500000 [CONTROLE BEM SUCEDIDO. IA FICOU CEGA]
+    - FANTASMA: Precisão 54.18% | P-Value: 0.012285 [ALERTA: Padrões de crosstalk no hardware]
+
+Exp. 09: Auditoria Panóptica Final (3 Espiões - Consenso de Filtro Térmico)
+  * Scripts: 05_extracao_auditoria_panoptica.py -> 05_analise_auditoria_panoptica.py
+  * Resultados:
+    - REAL (Corda + Marreta): Precisão 71.55% | P-Value: 0.000000 [SUPER ANOMALIA - SINAL OTIMIZADO]
+    - NULO (Marreta, s/ Corda): Precisão 51.71% | P-Value: 0.132281 [FILTRO NULO PERFEITO]
+    - PHAN (Corda, s/ Marreta): Precisão 51.57% | P-Value: 0.144332 [RUÍDO BASE VALIDADO]
+================================================================================

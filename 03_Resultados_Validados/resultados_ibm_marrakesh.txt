@@ -1,0 +1,24 @@
+================================================================================
+ DOSSIÊ DE AUDITORIA QUÂNTICA: HARDWARE IBM MARRAKESH
+ PROJETO JANUS - FASE 2: VALIDAÇÃO TRANS-ARQUITETÔNICA (REPLICABILIDADE)
+================================================================================
+
+[AUDITORIAS ESTRUTURAIS - MÁQUINA DE CONTROLE]
+--------------------------------------------------------------------------------
+Exp. 01: Auditoria Tripla (1 Espião - Real vs Nulo vs Fantasma)
+  * Scripts: 03_extracao_auditoria_tripla_1e.py -> 03_analise_auditoria_tripla.py
+  * Resultados:
+    - REAL (Corda + Marreta): Precisão 62.25% | P-Value: 0.000001 [SINAL CONFIRMADO]
+    - NULO (Marreta, s/ Corda): Precisão 55.40% | P-Value: 0.017385 [AVISO: Crosstalk detectado no chip]
+    - PHAN (Corda, s/ Marreta): Precisão 53.15% | P-Value: 0.134149 [RUÍDO BASE VALIDADO]
+
+Exp. 02: Auditoria Panóptica Final (3 Espiões - Consenso de Filtro Térmico)
+  * Scripts: 05_extracao_auditoria_panoptica.py -> 05_analise_auditoria_panoptica.py
+  * Resultados:
+    - REAL (Corda + Marreta): Precisão 62.65% | P-Value: 0.000000 [ANOMALIA ESTÁVEL E FILTRADA]
+    - NULO (Marreta, s/ Corda): Precisão 50.63% | P-Value: 0.363594 [FILTRO NULO PERFEITO]
+    - PHAN (Corda, s/ Marreta): Precisão 48.08% | P-Value: 0.915591 [RUÍDO BASE VALIDADO]
+
+[CONCLUSÃO MARRAKESH]
+O hardware ibm_marrakesh replicou com sucesso os padrões do ibm_kingston. O método Panóptico provou a sua eficácia ao corrigir os falsos positivos de crosstalk observados no Exp. 01 (Teste Nulo), limpando o sinal para a análise final (trazendo o nulo de 55.40% para os perfeitos 50.63%).
+================================================================================
