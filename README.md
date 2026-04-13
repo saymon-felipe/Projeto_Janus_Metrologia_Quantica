@@ -55,6 +55,25 @@ A extração de sinal operada pelo Protocolo D-Janus não se baseia em leitura d
 
 Os resultados empíricos validados nos processadores **Heron r2 de 156 qubits** demonstram que assinaturas temporais pós-selecionadas deixam rastros detectáveis na textura do ruído termodinâmico. O Protocolo D-Janus estabelece uma ferramenta robusta e nativa de IA para explorar correlações e topologias de causalidade em sistemas quânticos de larga escala.
 
+## 📝 Como Citar este Projeto
+
+Se você utilizar o Protocolo D-Janus ou os datasets extraídos da arquitetura Heron r2 em sua pesquisa, por favor, utilize a seguinte citação:
+
+**APA:**
+Saymon Felipe. (2026). D-Janus Protocol: AI-Enhanced Temporal Metrology for NISQ Systems (Version 1.0.0). Zenodo. [Link do DOI]
+
+**BibTeX:**
+@software{saymon_felipe_2026_janus,
+  author       = {Saymon Felipe},
+  title        = {{D-Janus Protocol: AI-Enhanced Temporal Metrology for NISQ Systems}},
+  month        = apr,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {PENDENTE},
+  url          = {https://github.com/saymon-felipe/Projeto_Janus_Metrologia_Quantica}
+}
+
 *Documentação gerada para fins de registro de pesquisa metodológica e auditoria em arquiteturas NISQ.*
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAYCAYAAAAYl8YPAAABcklEQVR4XmNgGAVkAXl5eScgvisnJ/eISOyCbgYMMAINmqKgoLASiBVAfJAgUGwOEP8DCnlA1TED2fZAsQeysrKmcN3IQFFRURyoaJWysrIYTAxosyBQ02mQRhkZGWmYuKioKA9QbLG0tLQMTAwFgJwMNKwQWQxogT5Q0ycgXgPkssDEoZZMUldX50VSjgBABaFKSkpqyGJADdFA/B8oV44sDnSRMFAsjQEaFEQBaHj9Bmq0QZcjCeAKL7IA0DBjoEFf0cMLBlRUVPiAcqVA3AwMWzsGfF7GFV4gAI3N1cAIMzc2NmYFqpkBxK7o6mCAESg5H1d4gcSActtAhkL5vrh8QDC8gC5KB8odQDPsNEgfulqC4QXyOhbDHgKxJFgBKI0BOeeA+B0Q/0fCX4D4OsgCog0jBQA1BWEx7DDOHIEPADO4DtCAHbAwgobhJHR1xAJQCVMKNKQRSFsB8XpgWpNHV0QSABomACptQGkNXW4EAACfW230jUqdzQAAAABJRU5ErkJggg==>
