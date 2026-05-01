@@ -21,14 +21,6 @@ Em testes rigorosos operados na arquitetura **IBM Heron r2** (processadores ibm\
 * **Área Sob a Curva (AUC):** 0.679  
 * **Integridade Causal:** Testes de "Massa Bruta" e "Fantasma" estabilizaram em \~51.80%, provando total respeito ao Teorema da Não-Comunicação.
 
-\<p align="center"\>
-
-\<img src="04\_Assets\_Visuais/janus\_distribuicao\_retrocausal.jpg" alt="Distribuição Retrocausal" width="800"/\>
-
-\<em\>Figura: Distribuição de densidade e entropia revelando o deslocamento do sinal retrocausal face ao ruído fantasma.</em\>
-
-\</p\>
-
 ## **📂 Estrutura do Repositório**
 
 O projeto está organizado metodicamente para garantir a replicabilidade e a transparência da auditoria de dados:
