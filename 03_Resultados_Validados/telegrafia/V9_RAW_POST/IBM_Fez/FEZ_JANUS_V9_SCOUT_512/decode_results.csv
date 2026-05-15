@@ -1,0 +1,3 @@
+dataset,mode,decoded_message,expected_message,payload_bit_accuracy,char_accuracy,hamming_corrected_count,bits_received,hamming_blocks_raw,hamming_syndromes,status
+REAL,RAW,NONUS,JANUS,0.8222222222222222,0.6,5,010111000100111111111010011110111010101101011,"[""010111100"", ""100101111"", ""001111100"", ""101101011"", ""111100111""]","[2, 5, 3, 1, 2]",ok
+REAL,POST_Q1_1,JANUS,JANUS,0.9555555555555556,1.0,2,010111000000011101111010000110101010101101011,"[""010110100"", ""100000011"", ""000111100"", ""101101011"", ""101100111""]","[4, 0, 0, 1, 0]",ok

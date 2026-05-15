@@ -1,0 +1,41 @@
+{
+  "message": "JANUS",
+  "alphabet": " ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "header": "0101",
+  "bits_5": [
+    "01010",
+    "00001",
+    "01110",
+    "10101",
+    "10011"
+  ],
+  "hamming_9_5_blocks": [
+    "010010100",
+    "100000011",
+    "000111100",
+    "001101011",
+    "101100111"
+  ],
+  "payload_interleaved": "010011000000011001111010000110101010101101011",
+  "sequence_bits": "0101010011000000011001111010000110101010101101011",
+  "num_sequence_bits": 49,
+  "num_payload_bits": 45,
+  "run_tag": "FEZ_JANUS_V9_SCOUT_512",
+  "created_utc": "2026-05-14T21:16:19.291521+00:00",
+  "backend": "ibm_fez",
+  "channel": "ibm_quantum_platform",
+  "theta": 0.39269908169872414,
+  "total_qubits": 5,
+  "shots": 512,
+  "cycles": 1,
+  "datasets": [
+    "REAL"
+  ],
+  "randomize_order": true,
+  "random_seed": 42,
+  "optimization_level": 3,
+  "seed_transpiler": 1234,
+  "initial_layout": null,
+  "raw_csv": "janus_v9_fez_janus_scout\\JANUS_V9_RAW_ibm_fez_FEZ_JANUS_V9_SCOUT_512.csv",
+  "meta_csv": "janus_v9_fez_janus_scout\\JANUS_V9_CIRCUIT_META_ibm_fez_FEZ_JANUS_V9_SCOUT_512.csv"
+}

@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-learn
+qiskit
+qiskit-ibm-runtime
+python-dotenv
+tabulate
+matplotlib

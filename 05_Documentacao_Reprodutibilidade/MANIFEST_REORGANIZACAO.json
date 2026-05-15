@@ -1,0 +1,277 @@
+{
+  "created_utc": "2026-05-15T16:04:59.787350+00:00",
+  "source_archives": [
+    "Projeto_Janus_Metrologia_Quantica.zip",
+    "teste janus.zip"
+  ],
+  "removed_env_files": [
+    "01_Scripts/A_Extracao_Quantica/.env"
+  ],
+  "mapping": [
+    {
+      "source": "ibm_fez/janus_ultrablind_extracao_analise_v5_fixed.py",
+      "dest": "01_Scripts/E_Auditoria_UltraBlindada_V9/janus_ultrablind_extracao_analise_v5_fixed.py",
+      "bytes": 43661
+    },
+    {
+      "source": "imb_kingston/janus_ultrablind_extracao_analise_v2.py",
+      "dest": "01_Scripts/E_Auditoria_UltraBlindada_V9/legacy/janus_ultrablind_extracao_analise_v2.py",
+      "bytes": 41299
+    },
+    {
+      "source": "imb_kingston/janus_ultrablind_extracao_analise_v3_fast.py",
+      "dest": "01_Scripts/E_Auditoria_UltraBlindada_V9/legacy/janus_ultrablind_extracao_analise_v3_fast.py",
+      "bytes": 43290
+    },
+    {
+      "source": "telegrafia/janus_v9_janus_message_definitivo.py",
+      "dest": "01_Scripts/F_Telegrafia_Janus_V9_RAW_POST/janus_v9_janus_message_definitivo.py",
+      "bytes": 45503
+    },
+    {
+      "source": "telegrafia/janus_v91_soft_decoder_v2_fixed.py",
+      "dest": "01_Scripts/G_Telegrafia_Janus_V91_SoftDecoder/janus_v91_soft_decoder_v2_fixed.py",
+      "bytes": 32909
+    },
+    {
+      "source": "/mnt/data/janus_raw_no_signal_payload_analysis.py",
+      "dest": "01_Scripts/F_Telegrafia_Janus_V9_RAW_POST/legacy/janus_raw_no_signal_payload_analysis.py",
+      "bytes": 16759
+    },
+    {
+      "source": "ibm_fez/janus_run_fez_1000/JANUS_MANIFEST_ibm_fez_FEZ_ULTRABLIND_001.json",
+      "dest": "02_Datasets_Brutos/Auditoria_UltraBlindada/IBM_Fez/FEZ_ULTRABLIND_001/raw/JANUS_MANIFEST_ibm_fez_FEZ_ULTRABLIND_001.json",
+      "bytes": 137300
+    },
+    {
+      "source": "ibm_fez/janus_analysis_fez_1000/JANUS_ANALYSIS_REPORT.md",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Fez/FEZ_ULTRABLIND_001/JANUS_ANALYSIS_REPORT.md",
+      "bytes": 10598
+    },
+    {
+      "source": "ibm_fez/janus_analysis_fez_1000/model_validation_metrics.csv",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Fez/FEZ_ULTRABLIND_001/model_validation_metrics.csv",
+      "bytes": 3082
+    },
+    {
+      "source": "ibm_fez/janus_analysis_fez_1000/q1_rate_by_lot.csv",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Fez/FEZ_ULTRABLIND_001/q1_rate_by_lot.csv",
+      "bytes": 2312
+    },
+    {
+      "source": "ibm_fez/janus_analysis_fez_1000/shot_level_summary.csv",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Fez/FEZ_ULTRABLIND_001/shot_level_summary.csv",
+      "bytes": 3178
+    },
+    {
+      "source": "imb_kingston/janus_run/JANUS_MANIFEST_ibm_kingston_JANUS_ibm_kingston_20260514_145608.json",
+      "dest": "02_Datasets_Brutos/Auditoria_UltraBlindada/IBM_Kingston/JANUS_ibm_kingston_20260514_145608/raw/JANUS_MANIFEST_ibm_kingston_JANUS_ibm_kingston_20260514_145608.json",
+      "bytes": 137321
+    },
+    {
+      "source": "imb_kingston/janus_analysis_fast/JANUS_ANALYSIS_REPORT.md",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Kingston/JANUS_ibm_kingston_20260514_145608/JANUS_ANALYSIS_REPORT.md",
+      "bytes": 10581
+    },
+    {
+      "source": "imb_kingston/janus_analysis_fast/model_validation_metrics.csv",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Kingston/JANUS_ibm_kingston_20260514_145608/model_validation_metrics.csv",
+      "bytes": 3080
+    },
+    {
+      "source": "imb_kingston/janus_analysis_fast/q1_rate_by_lot.csv",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Kingston/JANUS_ibm_kingston_20260514_145608/q1_rate_by_lot.csv",
+      "bytes": 2330
+    },
+    {
+      "source": "imb_kingston/janus_analysis_fast/shot_level_summary.csv",
+      "dest": "03_Resultados_Validados/Auditoria_UltraBlindada/IBM_Kingston/JANUS_ibm_kingston_20260514_145608/shot_level_summary.csv",
+      "bytes": 3233
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_fez_janus_scout/JANUS_V9_CIRCUIT_META_ibm_fez_FEZ_JANUS_V9_SCOUT_512.csv",
+      "dest": "02_Datasets_Brutos/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/raw/JANUS_V9_CIRCUIT_META_ibm_fez_FEZ_JANUS_V9_SCOUT_512.csv",
+      "bytes": 3391
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_fez_janus_scout/JANUS_V9_MANIFEST_ibm_fez_FEZ_JANUS_V9_SCOUT_512.json",
+      "dest": "02_Datasets_Brutos/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/raw/JANUS_V9_MANIFEST_ibm_fez_FEZ_JANUS_V9_SCOUT_512.json",
+      "bytes": 1113
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_fez_janus_scout/JANUS_V9_RAW_ibm_fez_FEZ_JANUS_V9_SCOUT_512.csv",
+      "dest": "02_Datasets_Brutos/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/raw/JANUS_V9_RAW_ibm_fez_FEZ_JANUS_V9_SCOUT_512.csv",
+      "bytes": 4144090
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/JANUS_V9_RAW_POST_REPORT.md",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/JANUS_V9_RAW_POST_REPORT.md",
+      "bytes": 5185
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/block_features.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/block_features.csv",
+      "bytes": 30896
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/cycle_decode_results.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/cycle_decode_results.csv",
+      "bytes": 200
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/decode_distances.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/decode_distances.csv",
+      "bytes": 6834
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/decode_results.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/decode_results.csv",
+      "bytes": 554
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/model_metrics.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/model_metrics.csv",
+      "bytes": 344
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/sham_message_results.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/sham_message_results.csv",
+      "bytes": 172
+    },
+    {
+      "source": "telegrafia/v1/janus_v9_analysis_fez_janus_scout/shot_level_bit_summary.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Fez/FEZ_JANUS_V9_SCOUT_512/shot_level_bit_summary.csv",
+      "bytes": 619
+    },
+    {
+      "source": "telegrafia/janus_v9_kingston_janus_definitive/JANUS_V9_CIRCUIT_META_ibm_kingston_FEZ_JANUS_V9_DEF_512x2.csv",
+      "dest": "02_Datasets_Brutos/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/raw/JANUS_V9_CIRCUIT_META_ibm_kingston_FEZ_JANUS_V9_DEF_512x2.csv",
+      "bytes": 21370
+    },
+    {
+      "source": "telegrafia/janus_v9_kingston_janus_definitive/JANUS_V9_MANIFEST_ibm_kingston_FEZ_JANUS_V9_DEF_512x2.json",
+      "dest": "02_Datasets_Brutos/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/raw/JANUS_V9_MANIFEST_ibm_kingston_FEZ_JANUS_V9_DEF_512x2.json",
+      "bytes": 1179
+    },
+    {
+      "source": "telegrafia/janus_v9_kingston_janus_definitive/JANUS_V9_RAW_ibm_kingston_FEZ_JANUS_V9_DEF_512x2.csv",
+      "dest": "02_Datasets_Brutos/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/raw/JANUS_V9_RAW_ibm_kingston_FEZ_JANUS_V9_DEF_512x2.csv",
+      "bytes": 26493588
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/JANUS_V9_RAW_POST_REPORT.md",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/JANUS_V9_RAW_POST_REPORT.md",
+      "bytes": 10194
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/block_features.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/block_features.csv",
+      "bytes": 96197
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/cycle_decode_results.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/cycle_decode_results.csv",
+      "bytes": 750
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/decode_distances.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/decode_distances.csv",
+      "bytes": 21826
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/decode_results.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/decode_results.csv",
+      "bytes": 1370
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/model_metrics.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/model_metrics.csv",
+      "bytes": 932
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/sham_message_results.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/sham_message_results.csv",
+      "bytes": 319
+    },
+    {
+      "source": "telegrafia/janus_v9_analysis_kingston_janus_def_512x2/shot_level_bit_summary.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V9_RAW_POST/IBM_Kingston/FEZ_JANUS_V9_DEF_512x2/shot_level_bit_summary.csv",
+      "bytes": 1742
+    },
+    {
+      "source": "telegrafia/janus_v91_kingston_janus_512x3/JANUS_V9_CIRCUIT_META_ibm_marrakesh_KINGSTON_JANUS_V91_512x3.csv",
+      "dest": "02_Datasets_Brutos/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/raw/JANUS_V9_CIRCUIT_META_ibm_marrakesh_KINGSTON_JANUS_V91_512x3.csv",
+      "bytes": 39925
+    },
+    {
+      "source": "telegrafia/janus_v91_kingston_janus_512x3/JANUS_V9_MANIFEST_ibm_marrakesh_KINGSTON_JANUS_V91_512x3.json",
+      "dest": "02_Datasets_Brutos/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/raw/JANUS_V9_MANIFEST_ibm_marrakesh_KINGSTON_JANUS_V91_512x3.json",
+      "bytes": 1214
+    },
+    {
+      "source": "telegrafia/janus_v91_kingston_janus_512x3/JANUS_V9_RAW_ibm_marrakesh_KINGSTON_JANUS_V91_512x3.csv",
+      "dest": "02_Datasets_Brutos/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/raw/JANUS_V9_RAW_ibm_marrakesh_KINGSTON_JANUS_V91_512x3.csv",
+      "bytes": 50387202
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/JANUS_V91_SOFT_DECODER_REPORT.md",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/JANUS_V91_SOFT_DECODER_REPORT.md",
+      "bytes": 15969
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_bit_details_aggregate.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_bit_details_aggregate.csv",
+      "bytes": 61994
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_bit_details_by_cycle.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_bit_details_by_cycle.csv",
+      "bytes": 172826
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_block_features_aggregate.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_block_features_aggregate.csv",
+      "bytes": 160050
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_block_features_by_cycle.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_block_features_by_cycle.csv",
+      "bytes": 444445
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_char_details_aggregate.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_char_details_aggregate.csv",
+      "bytes": 4493
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_char_details_by_cycle.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_char_details_by_cycle.csv",
+      "bytes": 12413
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_decode_hit_summary.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_decode_hit_summary.csv",
+      "bytes": 673
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_decode_results_aggregate.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_decode_results_aggregate.csv",
+      "bytes": 1639
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_decode_results_by_cycle.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_decode_results_by_cycle.csv",
+      "bytes": 4436
+    },
+    {
+      "source": "telegrafia/janus_v91_analysis_kingston_janus_512x3/v91_shot_level_summary.csv",
+      "dest": "03_Resultados_Validados/telegrafia/V91_SoftDecoder/IBM_Marrakesh/KINGSTON_JANUS_V91_512x3/v91_shot_level_summary.csv",
+      "bytes": 2238
+    }
+  ],
+  "notes": [
+    "analysis_input_merged.csv not included because it is derived and very large",
+    "Original folder typo imb_kingston normalized to IBM_Kingston",
+    "V91 run tag says KINGSTON but manifest/backend says ibm_marrakesh; archived under IBM_Marrakesh while preserving run tag"
+  ]
+}

@@ -1,0 +1,13 @@
+dataset,mode,decoder,n_decodes,exact_message_hits,best_char_accuracy,best_decoded_message
+NULO,POST_Q1_1,hard_vector,4,0,0.2,JD ZQ
+NULO,POST_Q1_1,soft_vector_codebook,4,0,0.2,JHAZQ
+NULO,RAW,hard_vector,4,0,0.0,D BH 
+NULO,RAW,soft_vector_codebook,4,0,0.0,DJAH 
+PHAN_STRICT_POSTHOC,POST_Q1_1,hard_vector,4,0,0.0,Q?ELN
+PHAN_STRICT_POSTHOC,POST_Q1_1,soft_vector_codebook,4,0,0.0,YZEON
+PHAN_STRICT_POSTHOC,RAW,hard_vector,4,0,0.2, ?CBS
+PHAN_STRICT_POSTHOC,RAW,soft_vector_codebook,4,0,0.0,XQYLV
+REAL,POST_Q1_1,hard_vector,4,1,1.0,JANUS
+REAL,POST_Q1_1,soft_vector_codebook,4,3,1.0,JANUS
+REAL,RAW,hard_vector,4,0,0.2,?LH?S
+REAL,RAW,soft_vector_codebook,4,0,0.4,QPHUS

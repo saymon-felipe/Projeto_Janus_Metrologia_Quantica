@@ -1,0 +1,3 @@
+dataset,mode,ok,model,n_windows,n_sequences,accuracy,balanced_accuracy,auc,perm_p_grouped,cm_tn,cm_fp,cm_fn,cm_tp,reason
+REAL,RAW,True,logreg,2880,45,0.49895833333333334,0.49711681547619047,0.5127246190631201,,806,730,713,631,ok
+REAL,POST_Q1_1,True,logreg,1367,45,0.6298463789319678,0.6303916782294396,0.6645189886427874,,418,278,228,443,ok

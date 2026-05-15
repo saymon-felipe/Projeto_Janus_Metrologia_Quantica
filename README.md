@@ -75,3 +75,23 @@ Se utilizar o Protocolo D-Janus, os scripts de Consenso Panóptico ou os dataset
 }
 
 *Documentação gerada para fins de registo de pesquisa metodológica e auditoria em arquiteturas NISQ pela KSI \- Kinetic Solutions.*
+
+---
+
+## Atualização V9 / V9.1 — Telegrafia RAW vs Pós-Seleção
+
+Esta versão reorganizada incorpora os testes recentes da pasta `teste janus`:
+
+- **Auditoria Ultra-Blindada V9:** validação REAL/NULO/PHAN, massa bruta vs pós-seleção, com permutações agrupadas.
+- **Telegrafia V9:** transmissão curta `JANUS`, comparando `RAW` sem pós-seleção contra `POST_Q1_1`.
+- **Decoder V9.1:** tentativa de recuperação RAW via decisão vetorial e Hamming soft-decision.
+
+### Observação metodológica importante
+
+A versão V8 descrevia a massa bruta como próxima da incerteza máxima. Os testes V9 adicionados aqui investigam explicitamente se há assinatura RAW parcial sem pós-seleção. Portanto, trate os resultados V9 como uma extensão experimental que exige replicação e não como substituição automática das conclusões do preprint V8.
+
+Documentação detalhada:
+
+- `05_Documentacao_Reprodutibilidade/MAPA_REORGANIZACAO_TESTE_JANUS.md`
+- `05_Documentacao_Reprodutibilidade/PROTOCOLOS_V9_V91.md`
+- `05_Documentacao_Reprodutibilidade/CHANGELOG_V9.md`

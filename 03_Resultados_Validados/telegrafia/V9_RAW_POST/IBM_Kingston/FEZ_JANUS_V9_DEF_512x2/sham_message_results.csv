@@ -1,0 +1,7 @@
+dataset,mode,sham_trials,exact_message_hits,exact_message_rate,best_char_accuracy,best_decoded_message
+NULO,RAW,200,0,0.0,0.0,
+NULO,POST_Q1_1,200,0,0.0,0.2,DAGPH
+PHAN_STRICT_POSTHOC,RAW,200,0,0.0,0.0,
+PHAN_STRICT_POSTHOC,POST_Q1_1,200,0,0.0,0.0,
+REAL,RAW,200,0,0.0,0.8, ANUS
+REAL,POST_Q1_1,200,200,1.0,1.0,JANUS

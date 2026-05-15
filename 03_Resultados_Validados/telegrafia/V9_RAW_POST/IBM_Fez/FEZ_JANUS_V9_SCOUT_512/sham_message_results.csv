@@ -1,0 +1,3 @@
+dataset,mode,sham_trials,exact_message_hits,exact_message_rate,best_char_accuracy,best_decoded_message
+REAL,RAW,200,0,0.0,0.6,NONUS
+REAL,POST_Q1_1,200,200,1.0,1.0,JANUS

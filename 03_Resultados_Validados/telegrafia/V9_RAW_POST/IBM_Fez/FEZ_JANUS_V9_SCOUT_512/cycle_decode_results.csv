@@ -1,0 +1,3 @@
+dataset,mode,cycle,decoded_message,payload_bit_accuracy,char_accuracy,hamming_corrected_count,status
+REAL,RAW,0,NONUS,0.8222222222222222,0.6,5,ok
+REAL,POST_Q1_1,0,JANUS,0.9555555555555556,1.0,2,ok
